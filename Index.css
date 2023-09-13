@@ -2,7 +2,13 @@ p{
     color:blueviolet;
 }
 a{
-    color:aquamarine;
+    color:black;
     padding: auto;
     width: 20%;
+}
+h1{
+    color:black;
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: #f4f4f4;
 }
