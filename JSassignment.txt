@@ -1,0 +1,39 @@
+javascrit assignment
+1. What is the difference between Let,Var and Const?
+answers;
+The var statement or keyword declares function-scoped or globally-scoped variables, optionally initializing each to a value.var declarations are only hoisted to the top of the current script. If you have two <script> elements within one HTML, the first script cannot access variables declared by the second before the second script has been processed and executed.
+
+The let keyword was introduced in ES6 (2015),The keyword let in Javascript is used to declare a variable that is block scoped in JavaScript. Variables defined with let cannot be Redeclared. Variables declared using let have scope in the block in which they are declared as well as any sub-blocks within it.let Unlike var does not generate a global object attribute at the peak level of programs and functions. 
+
+The const declaration declares block-scoped local variables. The value of a constant can't be changed through reassignment using the assignment operator, but if a constant is an object, its properties can be added, updated, or removed.
+
+The majoer difference between the three variables is var variables can be updated and re-declared within its scope; let variables can be updated but not re-declared; const variables can neither be updated nor re-declared. They are all hoisted to the top of their scope.
+Also Variables declared with var are in the function scope. Variables declared as let are in the block scope. Variables declared as const are in the block scope.var variables can be reassigned while let and const variables can not. Var is a global language and outdated, Let is used to reassign values while Const is used to write clean code and use to  declare once.
+
+
+2. Explain the different type of datetypes in javascript?
+answers;
+we have 8 types of datatypes;
+1. String;The String type represents textual data and is encoded as a sequence of 16-bit unsigned integer values representing UTF-16 code units. Each element in the string occupies a position in the string. The first element is at index 0 , the next at index 1 , and so on.The string data types are CHAR , VARCHAR , BINARY , VARBINARY , BLOB , TEXT , ENUM , and SET. A string is a sequence of characters enclosed between the double quotes  Example: "Hello World" "Hello, what is your name ?"
+
+2. Number;Number represents integer and floating numbers (decimals and exponentials). For example, const number1 = 3. A number type can also be +Infinity , -Infinity , and NaN (not a number).
+
+3. Bigint;The BigInt type is a numeric primitive in JavaScript that can represent integers with arbitrary magnitude. With BigInts, you can safely store and operate on large integers even beyond the safe integer limit.
+
+4. Boolean;Boolean is a datatype that returns either of two values i.e. true or false. In JavaScript, Boolean is used as a function to get the value of a variable, object, conditions, expressions, etc. in terms of true or false.
+
+5. Undefined; undefined means a variable has been declared but has not yet been assigned a value. undefined is a type by itself.
+
+6. Null;Null is an object in JavaScript and represents primitive data types. A null value in JavaScript is used for referring absence of any object value and if any function or variable returns null, then we can infer that the object could not be created.
+
+7. Symbol;It is a new primitive data type.Symbols are immutable (cannot be changed) and are unique.
+
+8. Object;It is a non-primitive data type that consists of unordered key-value pairs. Each object may include any mix of these fundamental data types and reference data types, as objects are more complicated. A reference or a pointer to the reference value is supplied to variables.
+
+And 3 Object datetypes
+1. An object;An object is a collection of properties, and a property is an association between a name (or key) and a value.
+
+2. An array;Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays. But, JavaScript arrays are best described as arrays. Arrays use numbers to access its "elements".
+
+3. A date; Date objects encapsulate an integral number that represents milliseconds since the midnight at the beginning of January 1, 1970
+
