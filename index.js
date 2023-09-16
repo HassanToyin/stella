@@ -116,8 +116,7 @@ country("Paris","Par")
 
 function sum(a, b) {
     console.log(a + b)
-    let result = a+b
-    console.log(a + " + " + b + " = " + result) 
+    console.log(a + " + " + b + " = " + (a + b)) 
 }
 
 sum(2,1)
@@ -126,8 +125,7 @@ sum(2,2)
 
 function sub(a, b) {
     console.log(a-b)
-    let result = a-b
-    console.log(a + "-" + b + " = " + result)
+    console.log(a + "-" + b + " = " + (a-b))
 }
 
 
